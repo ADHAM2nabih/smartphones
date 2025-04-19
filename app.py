@@ -5,7 +5,7 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model = joblib.load("random_forest_model.pkl")
+model = joblib.load("random_forest_gridsearch.pkl")
 
 st.set_page_config(page_title="Smartphone Price Predictor", layout="centered")
 
