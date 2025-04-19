@@ -7,7 +7,6 @@ model = joblib.load('random_forest_gridsearch.pkl')
 
 # ⬇️ عنوان التطبيق
 st.markdown("<h1 style='font-size: 42px;'>📱 Smartphone Price Predictor</h1>", unsafe_allow_html=True)
-st.write("**أدخل مواصفات الموبايل وتوقع السعر بالدولار 💰**")
 
 # ⬇️ مدخلات المستخدم
 ram = st.slider("RAM (GB)", 1, 16, 4)
